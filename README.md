@@ -18,6 +18,7 @@ With the objetive of provide a more general time series analysis toolset, we imp
 | Information criteria |   ❌  | ❌ |
 | VAR                  |   ❌  | ❌ |
 | GARCH                |   ❌  | ❌ |
+| Module/Package       |   ❌  | ❌ |
 
 ## Data sets 💽
 | Variable | Reference |
