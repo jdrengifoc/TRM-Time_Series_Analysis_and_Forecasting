@@ -10,7 +10,7 @@ With the objetive of provide a more general time series analysis toolset, we imp
 
 |   Implementation     | Python | R |
 | -------------------- | :----: | :-:|
-| Web scrapping        |   ✔️  | ❌ |
+| Web scraping         |   ✔️  | ❌ |
 | Visualization        |   ❌  | ✔️ |
 | Unit roots tests     |   ❌  | ✔️ |
 | ARMA                 |   ❌  | ✔️ |
