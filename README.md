@@ -1,0 +1,2 @@
+# TRM-Time_Series_Analysis_and_Forecasting
+The Colombian exchange rate (TRM) is a variable of interest to Colombian economy, since the country is very dependant of the outside world. For instance, during the COVID-19 pandemic generated a devaluation of the COP , which lead the food inflation to a great increase. Being as, the agricultural sector imports its raw materials from abroad. This work pretend to make a time series analysis to determine which variables modify the behaviour of the TRM and forecast its value.
