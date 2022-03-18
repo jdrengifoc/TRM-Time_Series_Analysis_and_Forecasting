@@ -34,4 +34,4 @@ With the objetive of provide a more general time series analysis toolset, we imp
 
 ## Authors ✒️
 - **Juan David Rengifo Castro** - Mathematical Engineer and Economics Student - [GitHub](https://github.com/jdrengifoc).
-- **Adrian Felipe Ruiz** - Finance and Economics Student - GITHUB
+- **Adrian Felipe Ruiz** - Finance and Economics Student - [GitHub](https://github.com/Afelipe-Ruiz)
