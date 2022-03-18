@@ -26,6 +26,8 @@ With the objetive of provide a more general time series analysis toolset, we imp
 | TRM      | 🏦 [BanRep](https://www.banrep.gov.co/en/node/50244)|
 * **TRM** The *Tasa Representativa del Mercado* was retrieved from the Colombian monetary authority, *El Banco de la República* ([BanRep](https://www.banrep.gov.co/en/node/50244))
 * **Oil Price** https://www.rdocumentation.org/packages/TSA/versions/1.3/topics/oil.pric
+* **Domestic interest rate*
+* **FED interest rate**
 * **FED policy** https://www.federalreserve.gov/consumerscommunities/shed_data.htm
 * **BanRep policy** 
     * https://www.larepublica.co/economia/colombia-reduce-a-396-los-creditos-multilaterales-en-ronda-de-coberturas-cambiarias-3322876
