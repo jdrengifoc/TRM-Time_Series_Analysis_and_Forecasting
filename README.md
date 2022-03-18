@@ -1,2 +1,37 @@
-# TRM-Time_Series_Analysis_and_Forecasting
-The Colombian exchange rate ([TRM](https://www.banrep.gov.co/es/estadisticas/trm)) is a variable of interest to Colombian economy, since the country is very dependant of the outside world. For instance, during the COVID-19 pandemic generated a devaluation of the COP , which lead the food inflation to a great increase. Being as, the agricultural sector imports its raw materials from abroad. This work pretend to make a time series analysis to determine which variables modify the behaviour of the TRM and forecast its value.
+# TRM a General Framework of Time Series Analysis and Forecasting
+
+## Motivation
+The motivation of this project is at least three-fold. First we want to contribute with general time series analysis and forecast toolbox that could be apply to any time series problem and hence, ease the repetitive task of the area. Second, we wanted to develop a deep understanding of the basic methods of time series and improve our programming skills. Third, we wanted to determine which variables modify the behaviour of the TRM and forecast its value, since the Colombian exchange rate ([TRM](https://www.banrep.gov.co/es/estadisticas/trm)) is a variable of interest to Colombian economy, due to the country dependance of the outside world. For instance, during the COVID-19 pandemic generated a devaluation of the COP, which lead the food inflation to a great increase. Being as, the agricultural sector imports its raw materials from abroad. This work pretend to make a time series analysis to determine 
+Moreover, the implementation algorithms were made as general as possible in the urge to have an automated framework for future work with time series. Is worth mention, that, as automatation lovers, the data was web scraped, thus the analysis could be update *"easily"*.
+
+## Built with 🛠️
+With the objetive of provide a more general time series analysis toolset, we implemented all the time series related methods that we could in R and Python, sadly due to time restrictions, some parts were only implemented in one language as the following table show.
+
+
+|   Implementation     | Python | R |
+| -------------------- | :----: | :-:|
+| Web scrapping        |   ✔️  | ❌ |
+| Visualization        |   ❌  | ✔️ |
+| Unit roots tests     |   ❌  | ✔️ |
+| ARMA                 |   ❌  | ✔️ |
+| ARMAX                |   ❌  | ✔️ |
+| Information criteria |   ❌  | ❌ |
+| VAR                  |   ❌  | ❌ |
+| GARCH                |   ❌  | ❌ |
+
+## Data sets 💽
+| Variable | Reference |
+| -------- | --------- |
+| TRM      | 🏦 [BanRep](https://www.banrep.gov.co/en/node/50244)|
+| TRM      | 🏦 [BanRep](https://www.banrep.gov.co/en/node/50244)|
+* **TRM** The *Tasa Representativa del Mercado* was retrieved from the Colombian monetary authority, *El Banco de la República* ([BanRep](https://www.banrep.gov.co/en/node/50244))
+* **Oil Price** https://www.rdocumentation.org/packages/TSA/versions/1.3/topics/oil.pric
+* **FED policy** https://www.federalreserve.gov/consumerscommunities/shed_data.htm
+* **BanRep policy** 
+    * https://www.larepublica.co/economia/colombia-reduce-a-396-los-creditos-multilaterales-en-ronda-de-coberturas-cambiarias-3322876
+    * https://www.larepublica.co/economia/como-impactara-subida-de-la-tasa-de-la-fed-en-las-proximas-decisiones-del-emisor-3324500
+* **Black dollars**
+
+## Authors ✒️
+- **Juan David Rengifo Castro** - Mathematical Engineer and Economics Student - [GitHub](https://github.com/jdrengifoc).
+- **Adrian Felipe Ruiz** - Carreer - GITHUB
