@@ -1,0 +1,8 @@
+Clasificación	Documento	Nombre	Link
+Petroleo	Noticia la Repblica	Fuerte caída del petróleo por confinamiento en China y negociaciones Rusia-Ucrania	https://bit.ly/3N5KxuW
+Petroleo	Noticia la Repblica	Petróleo vuelve a superar US$100 en medio de la advertencia de crisis de suministro	https://bit.ly/3wmCfch 
+Importaciones	Noticia de la República	Importaciones aumentaron 58,3% en enero y llegaron al total de US$6.050 millones	https://bit.ly/3ugB7Ek  
+Tasa externa USA	Noticia de la República	Los bancos centrales del continente acuden a subidas de tasas por la presión del IPC	https://bit.ly/3wnAaNp 
+Tasa externa USA	Noticia de la República	¿Cómo impactará subida de la tasa de la FED en las próximas decisiones del Emisor?	https://bit.ly/3N6ITti 
+Tasa domestica	Noticia de la República	Más que por alza de intervención Fed, tasa del Emisor estará impulsada por inflación	https://bit.ly/3L2Yfx8 
+Politica monetaria BR	Paper	Informe de politica monetaria 2022	https://bit.ly/3qlrP91 
