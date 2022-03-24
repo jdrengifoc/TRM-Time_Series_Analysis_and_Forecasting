@@ -19,6 +19,7 @@ With the objetive of provide a more general time series analysis toolset, we imp
 | VAR                  |   ❌  | ❌ |
 | GARCH                |   ❌  | ❌ |
 | Module/Package       |   ❌  | ❌ |
+| Automatic testing    |   ❌  | ❌ |
 
 ## Data sets 💽
 | Variable | Reference |
