@@ -156,23 +156,35 @@ plot.ecf <- function(ts, lag_max = 30, sig_min = 0.05){
   
   return(list("acf" = mine.acf, "pacf" = mine.pacf))
 }
-ar <- AR(2, 1000, delta = 1)
-plot(ar$x, type = 'l')
-mean(ar$x)
 
+# Estimated autocorrelation functions -------------------------------------
 
+#' Plot the estimated autocorrelation function and the estimated partial auto-
+#' correlation function of a time series.
+#' @param ts Time series.
+#' @return Dataframe of different units roots/stacionarity tests with their
+#' associated null hypotesis (in terms of stationarity), the p-value with the
+#' acf and pacf information.
+#' To develop
+#' 1. Other stationarity test.
+#' Modify all possible params of the functions.
+#' @import tseries
+#' @example
+#' ts <- ARMA(1,0,1000, phi = 0.4)
+#' unit_roots(ts$x)
 unit_roots <- function(ts){
   # Initialize.
   p_values <- NULL
   h0 <- c('No stationary', 'No stationary', 'Stationary')
   tests <- c('Augmented Dickey Fuller', 'Phillips-Perron', 'KPSS')
   
+  # Augmented Dickey Fuller (1984)
   adf <- tseries::adf.test(ts) # FALTA PARAM K
   p_values <- c(p_values, adf$p.value)
-  
+  # Phillips-Perron (1988)
   pp <- tseries::pp.test(ts)
   p_values <- c(p_values, pp$p.value)
-  
+  # Kwiatkowski, Phhillips, Schimdt and Shain (1992)
   kpss <- tseries::kpss.test(ts)
   p_values <- c(p_values, kpss$p.value)
   
