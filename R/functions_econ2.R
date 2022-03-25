@@ -180,4 +180,3 @@ unit_roots <- function(ts){
                     'p value' = p_values))
   
 }
-unit_roots(ar$x)
