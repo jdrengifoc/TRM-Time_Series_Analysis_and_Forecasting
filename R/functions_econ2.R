@@ -1,4 +1,5 @@
 rm(list = ls())
+library(fUnitRoots)
 # AR(p) -------------------------------------------------------------------
 #' Standard error AR(p) series, with the parameterization and traditional
 #' transformed series.
@@ -37,13 +38,7 @@ AR <- function(p, n,
   # AR simulation for each observation.
   for (i in (p+1):n){
     I <- (i-p):(i-1)
-    if (p==1){
-      x[i] <- delta + x[I]*phi + rnorm(1)
-    } else if (p > 1){
-      x[i] <- delta + dot(x[I], phi) + rnorm(1)
-    } else {
-      warning("p must be a positive integer.")
-    }
+    x[i] <- delta + sum(x[I]*phi) + rnorm(1)
   }
   # Organize results.
   results <- list(x = x,
@@ -161,3 +156,28 @@ plot.ecf <- function(ts, lag_max = 30, sig_min = 0.05){
   
   return(list("acf" = mine.acf, "pacf" = mine.pacf))
 }
+ar <- AR(2, 1000, delta = 1)
+plot(ar$x, type = 'l')
+mean(ar$x)
+
+
+unit_roots <- function(ts){
+  # Initialize.
+  p_values <- NULL
+  h0 <- c('No stationary', 'No stationary', 'Stationary')
+  tests <- c('Augmented Dickey Fuller', 'Phillips-Perron', 'KPSS')
+  
+  adf <- tseries::adf.test(ts) # FALTA PARAM K
+  p_values <- c(p_values, adf$p.value)
+  
+  pp <- tseries::pp.test(ts)
+  p_values <- c(p_values, pp$p.value)
+  
+  kpss <- tseries::kpss.test(ts)
+  p_values <- c(p_values, kpss$p.value)
+  
+  return(data.frame("Tests" = tests, "H0" = h0,
+                    'p value' = p_values))
+  
+}
+unit_roots(ar$x)
