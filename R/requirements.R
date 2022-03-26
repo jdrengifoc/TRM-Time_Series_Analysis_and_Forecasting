@@ -2,7 +2,7 @@
 packages <- c("devtools",                      # R-Packages
               "readxl", "writexl", "openxlsx", # Excel files
               "stats", "tseries",              # Timeseries
-              "tidyverse"                      # Escentials
+              "tidyverse", 'latex2exp'         # Escentials
               )
 # Install and load packages.              
 if (all(packages %in% rownames(installed.packages()))){
