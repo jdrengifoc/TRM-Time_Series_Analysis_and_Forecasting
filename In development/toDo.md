@@ -35,7 +35,7 @@
     * **Oil Price** https://www.rdocumentation.org/packages/TSA/versions/1.3/topics/oil.pric
     * **Domestic interest rate**
     * **FED interest rate**
-    * **Imports and exports** (Ghoda)
+    * **Imports and exports** (Goda)
 
 ## Useful links
 1. [GitHub: Sintaxis de escritura y formato básicos](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
