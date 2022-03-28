@@ -39,3 +39,4 @@
 
 ## Useful links
 1. [GitHub: Sintaxis de escritura y formato básicos](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+2. [Time Series Course](https://www.youtube.com/playlist?list=PLxQSlOe-wlgCx3zO3PxdneU-b0-Jsmd-C)
