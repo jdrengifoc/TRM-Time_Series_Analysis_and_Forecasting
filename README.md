@@ -17,6 +17,7 @@ With the objetive of provide a more general time series analysis toolset, we imp
 | ARMAX                |   ❌  | ✔️ |
 | Information criteria |   ❌  | ❌ |
 | VAR                  |   ❌  | ❌ |
+| VEC                  |   ❌  | ❌ |
 | GARCH                |   ❌  | ❌ |
 | Module/Package       |   ❌  | ❌ |
 | Automatic testing    |   ❌  | ❌ |
